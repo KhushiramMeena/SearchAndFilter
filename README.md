@@ -24,23 +24,7 @@
 ## About Data
  **src/data.json**
  ```bash
-    [
- 
-  {
-    "applicant_name": "Arsh Sharma",
-    "resume": "resume_link",
-    "highlight": "Computer Science graduate with expertise in web development and programming languages such as Python and JavaScript.",
-    "applied_for_jobs": 5,
-    "number_of_likes": 20
-  },
-  {
-    "applicant_name": "Khushiram Meena",
-    "resume": "resume_link",
-    "highlight": "B.Tech CSE'24 UG @IIITN | DSA | C | C++ | Python | Javascript | MERN | PHP | SQL | Apache Hadoop | Intern @Primathink Technologies Pvt. Ltd.",
-    "applied_for_jobs": 30,
-    "number_of_likes": 418
-  }
-    ]
+    I have used separate json file for data. instead ot this we can fetch data from an API
     ```
 
 ## Screenshots

@@ -21,12 +21,9 @@
     ```bash
     npm run dev
     ```
-## About Data
- **src/data.json**
- ```bash
-    I have used separate json file for data. instead ot this we can fetch data from an API
-    ```
-
+5. **About Data**
+ I have used separate json file for data. instead ot this we can fetch data from an API
+ 
 ## Screenshots
 **Home Page (Dark-Mode)**
 ![Fetched Data](screenshots/Dark.png)

@@ -1,0 +1,174 @@
+[
+ 
+  {
+    "applicant_name": "Arsh Sharma",
+    "resume": "resume_link",
+    "highlight": "Computer Science graduate with expertise in web development and programming languages such as Python and JavaScript.",
+    "applied_for_jobs": 5,
+    "number_of_likes": 20
+  },
+  {
+    "applicant_name": "Khushiram Meena",
+    "resume": "resume_link",
+    "highlight": "B.Tech CSE'24 UG @IIITN | DSA | C | C++ | Python | Javascript | MERN | PHP | SQL | Apache Hadoop | Intern @Primathink Technologies Pvt. Ltd.",
+    "applied_for_jobs": 30,
+    "number_of_likes": 418
+  },
+  {
+    "applicant_name": "Vishal Goyal",
+    "resume": "resume_link",
+    "highlight": "Experienced software engineer specializing in backend development and cloud computing.",
+    "applied_for_jobs": 8,
+    "number_of_likes": 30
+  },
+  {
+    "applicant_name": "Bob Johnson",
+    "resume": "resume_link",
+    "highlight": "Recent graduate in Electrical Engineering with a focus on embedded systems and IoT.",
+    "applied_for_jobs": 3,
+    "number_of_likes": 15
+  },
+  {
+    "applicant_name": "Eva Martinez",
+    "resume": "resume_link",
+    "highlight": "Full-stack developer with proficiency in React, Node.js, and MongoDB.",
+    "applied_for_jobs": 12,
+    "number_of_likes": 55
+  },
+  {
+    "applicant_name": "David Williams",
+    "resume": "resume_link",
+    "highlight": "IT professional skilled in network administration and cybersecurity.",
+    "applied_for_jobs": 6,
+    "number_of_likes": 25
+  },
+  {
+    "applicant_name": "Sophie Brown",
+    "resume": "resume_link",
+    "highlight": "UX/UI designer passionate about creating intuitive and visually appealing user interfaces.",
+    "applied_for_jobs": 7,
+    "number_of_likes": 22
+  },
+  {
+    "applicant_name": "Michael Lee",
+    "resume": "resume_link",
+    "highlight": "Data scientist specializing in machine learning and predictive analytics.",
+    "applied_for_jobs": 9,
+    "number_of_likes": 400
+  },
+  {
+    "applicant_name": "Emily Garcia",
+    "resume": "resume_link",
+    "highlight": "Marketing professional with expertise in digital marketing strategies and campaign management.",
+    "applied_for_jobs": 42,
+    "number_of_likes": 180
+  },
+  {
+    "applicant_name": "Daniel Kim",
+    "resume": "resume_link",
+    "highlight": "Student pursuing a degree in Computer Engineering with a strong interest in robotics.",
+    "applied_for_jobs": 0,
+    "number_of_likes": 12
+  },
+
+
+  {
+    "applicant_name": "Sophia Johnson",
+    "resume": "resume_link",
+    "highlight": "Graphic designer with a flair for creating visually stunning and innovative designs.",
+    "applied_for_jobs": 15,
+    "number_of_likes": 60
+  },
+  {
+    "applicant_name": "Oliver Davis",
+    "resume": "resume_link",
+    "highlight": "Software engineer specializing in front-end development with expertise in React and Vue.",
+    "applied_for_jobs": 8,
+    "number_of_likes": 35
+  },
+  {
+    "applicant_name": "Emma Wilson",
+    "resume": "resume_link",
+    "highlight": "Marketing manager experienced in developing and implementing effective marketing strategies.",
+    "applied_for_jobs": 20,
+    "number_of_likes": 90
+  },
+  {
+    "applicant_name": "Liam Martinez",
+    "resume": "resume_link",
+    "highlight": "Electrical engineer with a focus on renewable energy and sustainable technologies.",
+    "applied_for_jobs": 5,
+    "number_of_likes": 18
+  },
+  {
+    "applicant_name": "Ava Brown",
+    "resume": "resume_link",
+    "highlight": "Full-stack developer proficient in Python, Django, and React.",
+    "applied_for_jobs": 12,
+    "number_of_likes": 42
+  },
+  {
+    "applicant_name": "Noah Jones",
+    "resume": "resume_link",
+    "highlight": "Data analyst skilled in data visualization and statistical analysis.",
+    "applied_for_jobs": 10,
+    "number_of_likes": 55
+  },
+  {
+    "applicant_name": "Isabella White",
+    "resume": "resume_link",
+    "highlight": "UX/UI designer passionate about creating user-centric and aesthetically pleasing interfaces.",
+    "applied_for_jobs": 18,
+    "number_of_likes": 75
+  },
+  {
+    "applicant_name": "Mia Taylor",
+    "resume": "resume_link",
+    "highlight": "Graduate student pursuing a Master's in Artificial Intelligence and Machine Learning.",
+    "applied_for_jobs": 2,
+    "number_of_likes": 8
+  },
+  {
+    "applicant_name": "Jackson Harris",
+    "resume": "resume_link",
+    "highlight": "Mechanical engineer with expertise in designing and prototyping mechanical systems.",
+    "applied_for_jobs": 7,
+    "number_of_likes": 28
+  },
+  {
+    "applicant_name": "Scarlett Adams",
+    "resume": "resume_link",
+    "highlight": "Content creator and social media strategist with a focus on digital storytelling.",
+    "applied_for_jobs": 25,
+    "number_of_likes": 120
+  },
+
+  {
+    "applicant_name": "Aiden Miller",
+    "resume": "resume_link",
+    "highlight": "Web developer specializing in creating responsive and dynamic websites.",
+    "applied_for_jobs": 8,
+    "number_of_likes": 30
+  },
+  {
+    "applicant_name": "Ella Wilson",
+    "resume": "resume_link",
+    "highlight": "Digital marketing specialist with experience in SEO and content marketing.",
+    "applied_for_jobs": 15,
+    "number_of_likes": 300
+  },
+  {
+    "applicant_name": "Carter Davis",
+    "resume": "resume_link",
+    "highlight": "AI researcher exploring the applications of machine learning in healthcare.",
+    "applied_for_jobs": 12,
+    "number_of_likes": 50
+  },
+  {
+    "applicant_name": "Mila Martinez",
+    "resume": "resume_link",
+    "highlight": "Graphic designer passionate about creating visually appealing brand identities.",
+    "applied_for_jobs": 7,
+    "number_of_likes": 23
+  }
+]

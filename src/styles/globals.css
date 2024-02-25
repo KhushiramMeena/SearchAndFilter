@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base mobile styles */
+
+/* globals.css */
+.fixed-header {
+  position:-webkit-sticky;
+
+}
+
+
+
+
+
+
+/* Common styles for all views */
+.class1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+  padding: 6px;
+  width: 100%;
+}
+
+.class2,
+.class3,
+.class4,
+.class5,
+.class6 
+.class7{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+/* Desktop view styles */
+@media (min-width: 768px) {
+  .class2 {
+    grid-column: 2 / 13;
+    grid-row: 1;
+    font-weight: bold;
+  }
+
+  .class3 {
+    grid-column: 4 / 13;
+    grid-row: 1;
+  }
+
+  .class4 {
+    grid-column: 2 / 15;
+    grid-row: 2;
+  }
+
+  .class5 {
+    grid-column: 2 / 8;
+    grid-row: 3;
+  }
+
+  .class6 {
+    grid-column: 10 / 13;
+    grid-row: 3;
+    justify-content: flex-start;
+  }
+  .class7 {
+    grid-column: 13 / 13;
+    grid-row: 3;
+    justify-content: flex-end;
+  }
+}
+
+/* Mobile and tablet view styles */
+@media (max-width: 767px) {
+  .class2,
+  .class3,
+  .class4,
+  .class5,
+  .class6 {
+    grid-column: 2 / 13;
+  }
+}

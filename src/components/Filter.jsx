@@ -19,8 +19,8 @@ const Filter = ({ onSort }) => {
         className="p-2 text-sm border-none placeholder:text-base placeholder:text-dark-gray dark:placeholder:text-white rounded-md drop-shadow-md dark:bg-dark-blue"
       >
         <option value="">Select an option</option>
-        <option value="number_of_likes">Likes</option>
-        <option value="applied_for_jobs">Applied Jobs</option>
+        <option value="number_of_likes">By number of Likes</option>
+        <option value="applied_for_jobs">By number of jobs applied</option>
       </select>
     </div>
   );

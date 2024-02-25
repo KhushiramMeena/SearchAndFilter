@@ -1,4 +1,4 @@
-import { CountryList } from "@/components/CountryList";
+import { CandidateList } from "@/components/CandidateList";
 import Searchbar from "@/components/Searchbar";
 import path from "path";
 import fs from "fs";
@@ -27,7 +27,7 @@ export default function Home({ countries, regions }) {
       
       </div>
       <div className="grid gap-8 p-7 md:grid-cols-1 xl:px-20 xl:py-14 xl:gap-16">
-        <CountryList ref={refList} countries={countries} state={state} />
+        <CandidateList ref={refList} countries={countries} state={state} />
       </div>
     </>
   );

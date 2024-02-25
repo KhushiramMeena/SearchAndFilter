@@ -4,7 +4,7 @@ import { kebabCase } from "lodash";
 import { useRouter } from "next/router";
 import Filter from './Filter';
 
-export const CountryList = forwardRef(({ countries, state }, ref) => {
+export const CandidateList = forwardRef(({ countries, state }, ref) => {
   const router = useRouter();
   const [itemsPerBatch, setItemsPerBatch] = useState(25);
   const [scroll, setScroll] = useState({ current: 0, max: 0 });
@@ -152,7 +152,7 @@ const sortedCountries = [...mappedCountries].sort(sortCountries);
     }
   }, [likedMap, isMounted]);
 
-  const CountryListItem = ({ country, i }) => {
+  const CandidateItem = ({ country, i }) => {
     const { applicant_name, resume, highlight, applied_for_jobs, number_of_likes } = country;
 
     
@@ -198,11 +198,11 @@ const sortedCountries = [...mappedCountries].sort(sortCountries);
 
 
 
-  const CountryList = () => {
+  const CandidateList = () => {
   
     return isMounted && sortedCountries?.map((country, i) => (
 
-      <CountryListItem key={i} country={country} i={i} />
+      <CandidateItem key={i} country={country} i={i} />
     ));
   };
 
@@ -210,7 +210,7 @@ const sortedCountries = [...mappedCountries].sort(sortCountries);
     <>
       <Filter onSort={handleSortChange} />
       <div ref={ref} className="grid px-7 animate-fadeIn text-center">
-        <CountryList />
+        <CandidateList />
         <BackToTopButton ref={refTopButton} />
       </div>
       <LoadingIcon className={`my-16 animate-spin text-7xl col-span-full justify-self-center${isMounted && itemsPerBatch + 25 > mappedCountries?.length ? ' hidden' : ''}`} />
@@ -218,7 +218,7 @@ const sortedCountries = [...mappedCountries].sort(sortCountries);
   );
 });
 
-CountryList.displayName = "CountryList";
+CandidateList.displayName = "CandidateList";
 
 const BackToTopButton = forwardRef((props, ref) => {
   const classes = "fixed bottom-5 right-5 sm:bottom-10 sm:right-10 z-10 p-5 rounded-full shadow-md drop-shadow-md " +

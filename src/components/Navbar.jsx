@@ -13,7 +13,7 @@ export const Navbar = ({ theme: [darkMode, setDarkMode] }) => {
       
       <button className="flex items-center font-semibold xl:text-lg" onClick={toggleDarkMode}>
         {darkMode ? <BsMoonFill className="mr-1"/> : <BsMoon className="mr-1"/>}
-        Dark Mode
+        Dark
       </button>
     </nav>
   );

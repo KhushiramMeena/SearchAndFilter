@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
       <>
         <Head>
           <title>Search And Filter Profiles</title>
-          <meta name="description" content="Lookup different countries" />
+          <meta name="description" content="Choose best candidate" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
 
